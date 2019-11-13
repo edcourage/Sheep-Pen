@@ -7,6 +7,9 @@ Pen.prototype.putSheepInPen = function(sheep) {
 };
 
 Pen.prototype.sheepInPen = function () {
-  return this._penArray
-
+  var listOfSheepName = []
+  this._penArray.forEach(function(element) {
+    listOfSheepName.push(element.name())
+  })
+  return listOfSheepName.join("\n")
 };

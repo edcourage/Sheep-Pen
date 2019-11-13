@@ -7,7 +7,7 @@ As a shepherd
 So my sheep can be safe
 I want to have a pen they can go into
 
-<!-- As a shepherd
+As a shepherd
 So my sheep can be friends
 I want them to be able to say their names
 
